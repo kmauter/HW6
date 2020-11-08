@@ -1,0 +1,33 @@
+Graph 1: Small Sparse
+  Fibonacci implementation was faster
+Graph 2: Small Medium
+  The two implementations performed similarly
+Graph 3: Large Medium
+  Binary implementation was faster
+Graph 4: Medium Medium
+  Binary implementation was faster
+Graph 5: Tiny
+  The two implementations performed similarly
+Graph 6: Medium Sparse
+  The two implementations performed similarly
+Graph 7: Small Dense
+  The two implementations performed similarly
+Graph 8: Medium Dense
+  Binary implementation was faster
+Graph 9: Large Dense
+  Binary implementation was faster
+Graph 10: Large Sparse
+  Fibonacci implementation was faster
+
+Tie - T
+Fib - F
+Bin - B
+
+Tiny - T
+
+________Small__	Medium_	Large
+Sparse	|   F	|   T	|   F	|
+Medium	|   T	|   B	|   B	|
+Dense	|   T	|   B	|   B	|
+
+Conclusions: A fibonacci heap implementation performs better on sparse graphs, while a binary heap implementation performs better on more dense graphs. If a graph is small, the difference between the two is not significant.

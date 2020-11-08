@@ -1,0 +1,57 @@
+Pass a file in this format:
+v         - where v is an integer representing the number of vertices
+s         - where s is an integer representing the key of the source vertex
+x y z     - where x y and z are integers representing the source, destination, and weight of an edge
+...       - where any number of following lines are in the x y z format
+-1        - represent the end of a graph, all graphs in the file should follow this format
+
+Binary Heap Time: 11935900
+Fibonacci Heap Time: 1994700
+Fibonacci Heap was faster
+
+
+Binary Heap Time: 0
+Fibonacci Heap Time: 0
+Both implementations took equal time
+
+
+Binary Heap Time: 1963700
+Fibonacci Heap Time: 1994600
+Binary Heap was faster
+
+
+Binary Heap Time: 0
+Fibonacci Heap Time: 996800
+Binary Heap was faster
+
+
+Binary Heap Time: 0
+Fibonacci Heap Time: 0
+Both implementations took equal time
+
+
+Binary Heap Time: 0
+Fibonacci Heap Time: 0
+Both implementations took equal time
+
+
+Binary Heap Time: 0
+Fibonacci Heap Time: 0
+Both implementations took equal time
+
+
+Binary Heap Time: 997400
+Fibonacci Heap Time: 997200
+Fibonacci Heap was faster
+
+
+Binary Heap Time: 994700
+Fibonacci Heap Time: 1995500
+Binary Heap was faster
+
+
+Binary Heap Time: 1000100
+Fibonacci Heap Time: 993800
+Fibonacci Heap was faster
+
+
